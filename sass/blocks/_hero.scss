@@ -1,0 +1,94 @@
+.hero{
+  background-color:#000;
+  color: #fff;
+ 
+}
+
+.hero__title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.hero__page{
+  max-width:611px;
+  width: 100%;
+  left: 0;
+ 
+}
+
+.hero__louvre{
+  color:#CAAA7D;
+}
+
+.hero__page h2{
+  margin: 0;
+  font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 90px;
+letter-spacing: 5px;
+text-transform: uppercase;
+}
+.hero__page p{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 26px;
+line-height: 33px;
+letter-spacing: 2px;
+margin-bottom: 80px;
+
+}
+.hero__page a{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+text-align: center;
+letter-spacing: 2px;
+text-decoration: none;
+color: #fff;
+background: #710707;
+border-radius: 10px;
+padding: 15px 30px;
+border: 2px solid #710707;
+margin-top: 120px;
+
+}
+
+@media screen and (max-width:1220px) {
+  .hero__title{
+    display: flex;
+    flex-direction: column;
+  }
+.hero__page {
+  text-align: center;
+}
+  .hero__page a{
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width:852px){
+  .hero__mono{
+    max-width: 650px;
+    width: 100%;
+    height: 450px;
+    text-align: center;
+  }
+  
+
+}
+
+@media screen and (max-width:440px){
+  .hero__page h2{
+    font-size: 40px;
+  }
+  .hero__page p{
+    font-size: 23px;
+  }
+}

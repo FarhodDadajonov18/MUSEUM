@@ -1,0 +1,150 @@
+.ticket{
+  background-image: url(/img/big-img.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 100% 800px;
+  padding-bottom: 200px;
+}
+.ticket__title{
+font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 90px;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: #9D8665;
+border-bottom: 2px solid#710707;
+}
+
+.ticket__header{
+  margin-bottom: 100px;
+}
+
+
+
+form{
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.ticket__input{
+  display: flex;
+  align-items: center;
+
+}
+.ticket__input p {
+  margin-left: 10px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 26px;
+color: #000000;
+}
+
+.ticket__age{
+  display: block;
+  margin-bottom: 15px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 26px;
+color: #000000;
+margin-top: 20px;
+ 
+}
+
+.ticket__account{
+  padding-bottom: 30px;
+}
+
+
+
+.ticket__account p{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+color: #000000;
+margin-top: 0;
+}
+
+
+
+.ticket__type{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000; 
+}
+
+
+
+
+
+
+.ticket__header{
+  display: flex;
+
+}
+
+.ticket__account{
+  margin-left: auto;
+}
+
+.ticket__price{
+  margin-top: 30px !important;
+}
+
+.ticket__btn{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 2px;
+color: #FFFFFF;
+background-color: #000000;
+padding: 10px 38px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+@media (max-width:970px){
+  form{
+    display: none;
+  }
+}
+
+@media (max-width:720px){
+  .ticket__header{
+    display: flex;
+    flex-direction: column;
+  }
+  .ticket__account{
+   margin: 0 auto;
+   text-align: center;
+   
+  }
+  .ticket{
+    background-position: 100% 100%;
+  }
+
+
+
+
+}
+
+@media (max-width:350px){
+  .ticket__title{
+    font-size: 45px;
+  }
+}

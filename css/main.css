@@ -1,0 +1,1256 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,900&family=Open+Sans:ital,wght@0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Paytone+One&family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  color: #000;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  padding: 0px 30px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #030303;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 58px;
+  padding-bottom: 58px;
+}
+
+.header__logo:hover {
+  opacity: 0.8;
+}
+
+.header__logo:active {
+  opacity: 0.6;
+}
+
+.header__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.header__item {
+  margin: 0 30px;
+  position: relative;
+}
+
+.header__item::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background-color: #FFFFFF;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s ease;
+}
+
+.header__item:hover::after {
+  width: 100%;
+}
+
+.header__link {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+.header__item:hover {
+  opacity: 0.8;
+}
+
+.header__item:active {
+  opacity: 0.6;
+}
+
+.header__btn {
+  background: transparent;
+  border: 0;
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .header__link {
+    display: none;
+  }
+
+  .header__btn {
+    display: block;
+  }
+}
+.hero {
+  background-color: #000;
+  color: #fff;
+}
+
+.hero__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__page {
+  max-width: 611px;
+  width: 100%;
+  left: 0;
+}
+
+.hero__louvre {
+  color: #CAAA7D;
+}
+
+.hero__page h2 {
+  margin: 0;
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.hero__page p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 33px;
+  letter-spacing: 2px;
+  margin-bottom: 80px;
+}
+
+.hero__page a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #fff;
+  background: #710707;
+  border-radius: 10px;
+  padding: 15px 30px;
+  border: 2px solid #710707;
+  margin-top: 120px;
+}
+
+@media screen and (max-width: 1220px) {
+  .hero__title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero__page {
+    text-align: center;
+  }
+
+  .hero__page a {
+    display: none;
+  }
+}
+@media screen and (max-width: 852px) {
+  .hero__mono {
+    max-width: 650px;
+    width: 100%;
+    height: 450px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 440px) {
+  .hero__page h2 {
+    font-size: 40px;
+  }
+
+  .hero__page p {
+    font-size: 23px;
+  }
+}
+.intro__tour {
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9D8665;
+  border: none;
+  border-bottom: 2px solid #710707;
+}
+
+.intro__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-row-gap: 75px;
+  grid-column-gap: 10px;
+  margin-bottom: 100px;
+}
+
+.intro__item:hover {
+  transform: scale(1.1);
+  transition: 0.4s ease;
+}
+
+.intro__place {
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.intro__line {
+  display: block;
+  max-width: 270px;
+  width: 100%;
+  background-color: #710707;
+  height: 2px;
+  margin-bottom: 10px;
+}
+
+.intro__degree {
+  display: block;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  margin-bottom: 6px;
+}
+
+.intro__google {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+@media screen and (max-width: 1270px) {
+  .intro__tour {
+    text-align: center;
+    font-size: 55px;
+  }
+
+  .intro__list {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    text-align: center;
+  }
+
+  .intro__line {
+    display: none;
+  }
+}
+@media screen and (max-width: 860px) {
+  .intro__tour {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .intro__list {
+    display: grid;
+    grid-template-columns: repeat(1, 6fr);
+    text-align: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .intro__tour {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .intro__item img {
+    max-width: 300px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .intro__item img {
+    max-width: 200px;
+    height: 100px;
+  }
+
+  .intro__place {
+    font-size: 22px;
+  }
+
+  .intro__degree {
+    font-size: 18px;
+  }
+
+  .intro__google {
+    font-size: 18px;
+  }
+}
+.about {
+  background-color: #000;
+  color: #fff;
+}
+
+.about__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__title {
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  max-width: 611px;
+  border-bottom: 2px solid red;
+}
+
+.about__inner {
+  max-width: 650px;
+  width: 100%;
+}
+
+.about__inner p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 38px;
+  color: #FFFFFF;
+  max-width: 493px;
+}
+
+.about__family {
+  margin-top: 80px;
+}
+
+.yellow {
+  color: #CAAA7D;
+}
+
+@media (max-width: 1270px) {
+  .about__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about__family {
+    text-align: center;
+  }
+
+  .about__inner p {
+    max-width: 698px;
+  }
+}
+@media (max-width: 730px) {
+  .about__family {
+    width: 500px;
+    height: 480px;
+  }
+}
+@media (max-width: 520px) {
+  .about__family {
+    width: 400px;
+    height: 380px;
+  }
+}
+@media (max-width: 420px) {
+  .about__family {
+    width: 300px;
+    height: 280px;
+  }
+
+  .about__title {
+    font-size: 43px;
+  }
+}
+.about__journey {
+  margin-top: 30px;
+  background-color: #fff;
+}
+
+.content__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content__title {
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9D8665;
+}
+
+.content__param {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  max-width: 600px;
+}
+
+.content__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 25px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.mark {
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+  -webkit-mask-box-image: 60px;
+          mask-border: 60px;
+}
+
+@media (max-width: 1270px) {
+  .content__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content__title {
+    margin-bottom: 0;
+  }
+
+  .content__first {
+    max-width: 1200px;
+    width: 100%;
+  }
+
+  .content__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content__item {
+    margin-bottom: 20px;
+    max-width: 850px;
+  }
+}
+@media (max-width: 530px) {
+  .content__second {
+    max-width: 300px;
+    width: 100%;
+  }
+}
+.gallery {
+  background-color: black;
+  margin-top: 50px;
+  color: #fff;
+}
+
+.gallery__title {
+  margin: 0;
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 50px;
+}
+
+.gallery__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 4fr);
+  align-items: center;
+  grid-gap: 10px;
+  margin-top: 50px;
+  max-width: 1400px;
+  width: 100%;
+}
+
+@media (max-width: 1300px) {
+  .gallery__list {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    align-items: center;
+    text-align: center;
+  }
+
+  .gallery__item img {
+    max-width: 400px;
+    width: 100%;
+    height: 450;
+  }
+}
+@media (max-width: 800px) {
+  .gallery__list {
+    display: grid;
+    grid-template-columns: repeat(1, 12fr);
+    text-align: center;
+  }
+
+  .gallery__item img {
+    max-width: 400px;
+    width: 100%;
+    height: 450;
+  }
+}
+@media (max-width: 380px) {
+  .gallery__title {
+    font-size: 40px;
+  }
+
+  .gallery__item img {
+    max-width: 200px;
+    width: 100%;
+    height: 300px;
+  }
+}
+.ticket {
+  background-image: url(/img/big-img.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 100% 800px;
+  padding-bottom: 200px;
+}
+
+.ticket__title {
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9D8665;
+  border-bottom: 2px solid #710707;
+}
+
+.ticket__header {
+  margin-bottom: 100px;
+}
+
+form {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ticket__input {
+  display: flex;
+  align-items: center;
+}
+
+.ticket__input p {
+  margin-left: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.ticket__age {
+  display: block;
+  margin-bottom: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.ticket__account {
+  padding-bottom: 30px;
+}
+
+.ticket__account p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+  margin-top: 0;
+}
+
+.ticket__type {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.ticket__header {
+  display: flex;
+}
+
+.ticket__account {
+  margin-left: auto;
+}
+
+.ticket__price {
+  margin-top: 30px !important;
+}
+
+.ticket__btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  background-color: #000000;
+  padding: 10px 38px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 970px) {
+  form {
+    display: none;
+  }
+}
+@media (max-width: 720px) {
+  .ticket__header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ticket__account {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .ticket {
+    background-position: 100% 100%;
+  }
+}
+@media (max-width: 350px) {
+  .ticket__title {
+    font-size: 45px;
+  }
+}
+.contacts__title {
+  margin-top: 100px;
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9D8665;
+  border-bottom: 2px solid #710707;
+}
+
+.contacts__span {
+  display: block;
+  line-height: 30px;
+}
+
+.contacts__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__king {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 33px;
+  color: #000000;
+  max-width: 200px;
+  width: 100%;
+}
+
+.contacts__span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: flex-end;
+  line-height: 50px;
+  color: #000000;
+}
+
+@media (max-width: 1200px) {
+  .contacts__header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contacts__map {
+    max-width: 860px;
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .contacts__map {
+    max-width: 560px;
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .contacts__title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 300px) {
+  .contacts__title {
+    font-size: 30px;
+  }
+}
+.footer {
+  background-color: #000;
+  margin-top: 80px;
+}
+
+.footer__header {
+  display: flex;
+  align-items: center;
+}
+
+.footer__list {
+  list-style: none;
+  margin-left: 50px;
+  margin-top: 60px;
+}
+
+.footer__item {
+  line-height: 30px;
+}
+
+.footer__second {
+  list-style: none;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.footer__theme {
+  margin-left: 15px;
+}
+
+.footer__item a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+.footer__line {
+  display: block;
+  max-width: 1800px;
+  width: 100%;
+  height: 2px;
+  background: #666666;
+}
+
+.footer__final {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 17px;
+  line-height: 22px;
+  /* identical to box height, or 100% */
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 830px) {
+  .footer {
+    position: relative;
+    padding: 80px;
+  }
+
+  .footer__second {
+    position: absolute;
+    left: 350px;
+    top: 140px;
+  }
+
+  .footer__list {
+    margin-bottom: 50px;
+  }
+
+  .rol {
+    display: none;
+  }
+
+  .footer__line {
+    display: none;
+  }
+}
+@media (max-width: 650px) {
+  .footer {
+    padding: 150px;
+  }
+
+  .footer__list {
+    position: absolute;
+    left: 100px;
+    top: 200px;
+  }
+
+  .second {
+    margin-left: 150px;
+  }
+
+  .footer__second {
+    left: 100px;
+    width: 250px;
+    top: 260px;
+  }
+
+  .footer__final {
+    width: 200px;
+  }
+}
+@media (max-width: 416px) {
+  .footer {
+    padding: 300px 0px;
+  }
+
+  .footer__list {
+    margin-right: 130px;
+  }
+
+  .footer__header {
+    position: absolute;
+    left: 25%;
+    top: 40px;
+  }
+
+  .footer__list {
+    top: 60px;
+    left: -40%;
+  }
+
+  .footer__final {
+    position: absolute;
+    left: 21%;
+  }
+
+  .footer__second {
+    left: -40%;
+  }
+}
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,90 @@
+.about{
+  background-color: #000;
+  color: #fff;
+}
+
+.about__header{
+  display: flex;
+  // align-items: center;
+  justify-content: space-between;
+}
+
+.about__title{
+font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 90px;
+letter-spacing: 5px;
+text-transform: uppercase;
+max-width: 611px;
+border-bottom: 2px solid red;
+}
+
+.about__inner{
+  max-width: 650px;
+  width: 100%;
+}
+.about__inner p{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 19px;
+line-height: 38px;
+color: #FFFFFF;
+max-width: 493px;
+}
+.about__family{
+  margin-top: 80px;
+}
+.yellow{
+  color: #CAAA7D;
+}
+
+
+@media(max-width:1270px){
+  .about__header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .about__family{
+    text-align: center;
+  }
+  .about__inner p{
+    max-width: 698px;
+  }
+}
+
+
+@media(max-width:730px){
+  .about__family{
+    width: 500px;
+    height: 480px;
+  }
+}
+
+@media(max-width:520px){
+  .about__family{
+    width: 400px;
+    height: 380px;
+  }
+}
+
+
+@media(max-width:420px){
+  .about__family{
+    width: 300px;
+    height: 280px;
+  }
+  .about__title{
+    font-size: 43px;
+  }
+}
+
+.about__journey{
+  margin-top: 30px;
+  background-color: #fff;
+}

@@ -1,0 +1,84 @@
+.content__inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content__title{
+font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 90px;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: #9D8665;
+}
+.content__param{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 38px;
+display: flex;
+align-items: center;
+color: #000000;
+max-width: 600px;
+
+}
+.content__list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap:25px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.mark{
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+  mask-border: 60px;
+}
+
+
+
+@media(max-width:1270px){
+
+.content__inner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.content__title{
+  margin-bottom: 0;
+}
+.content__first{
+  max-width:1200px;
+width: 100%;
+}
+.content__list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content__item{
+  margin-bottom: 20px;
+  max-width: 850px;
+}
+
+
+}
+
+
+@media(max-width:530px){
+.content__second{
+  max-width: 300px;
+  width: 100%;
+}
+}
+

@@ -1,0 +1,124 @@
+.intro__tour{
+font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 65px;
+line-height: 90px;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: #9D8665;
+border:none;
+border-bottom: 2px solid #710707;
+}
+.intro__list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3,2fr);
+  grid-row-gap: 75px;
+  grid-column-gap: 10px;
+  margin-bottom: 100px;
+}
+
+
+
+.intro__item:hover{
+  transform: scale(1.1);
+  transition: 0.4s ease;
+
+}
+.intro__place{
+  font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 35px;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: #000000;
+margin-bottom: 0;
+}
+.intro__line{
+  display: block;
+  max-width: 270px;
+  width: 100%;
+  background-color: #710707;
+  height: 2px;
+  margin-bottom: 10px;
+}
+.intro__degree{
+display: block;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 100;
+font-size: 20px;
+line-height: 26px;
+color: #000000;
+margin-bottom: 6px;
+}
+.intro__google{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000; 
+}
+
+@media screen and (max-width:1270px) {
+  .intro__tour{
+    text-align: center;
+    font-size: 55px;
+  }
+  .intro__list{
+    display: grid;
+    grid-template-columns: repeat(2,3fr);
+    text-align: center;
+  }
+  .intro__line{
+    display: none;
+  }
+}
+
+
+
+@media screen and (max-width:860px){
+  .intro__tour{
+    text-align: center;
+    font-size: 40px;
+  }
+  .intro__list{
+    display: grid;
+    grid-template-columns: repeat(1,6fr);
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:450px){
+  .intro__tour{
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .intro__item img {
+    max-width: 300px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width:350px){
+  .intro__item img {
+    max-width: 200px;
+    height: 100px;
+  }
+  .intro__place{
+    font-size: 22px;
+  }
+  .intro__degree{
+    font-size: 18px;
+  }
+  .intro__google{
+    font-size: 18px;
+  }
+}
